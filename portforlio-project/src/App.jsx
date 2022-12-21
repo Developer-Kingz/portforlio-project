@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+// import '../../portforlio-project/src/NavBar/test.css'
 import NavBar from './NavBar/NavBar'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Banner from './components/Banner'
@@ -8,6 +9,7 @@ import Projects from './components/Projects'
 import ProjectCards from './components/ProjectCards'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Projectss from './components/Projectss'
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
     <Banner/>
     <Skills/>
     <Projects/>
+    {/* <Projectss/> */}
     <ProjectCards/>
     <Contact/>
     <Footer/>

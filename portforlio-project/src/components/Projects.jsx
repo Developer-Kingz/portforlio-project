@@ -7,6 +7,7 @@ import projImg2 from "../assets/project-img2.png";
 import projImg3 from "../assets/project-img3.png";
 import oculus from "../assets/oculus.jpeg"
 import imageSlider from "../assets/image-slider.jpeg"
+import bloodbank from "../assets/bloodbank.png"
 import wastex1 from "../assets/wastex1.jpeg"
 import wastex2 from "../assets/wastex2.jpeg"
 import youtube from "../assets/youtube.jpeg"
@@ -19,7 +20,7 @@ const Projects = () => {
         {
             title: "Waste management Application",
             description:
-            "platform allows people to know how waste is disposed off",
+            "A platform that allows people schedule for their waste to be picked and also make payment easily",
             imgUrl: wastex1,
         },
         {
@@ -33,10 +34,10 @@ const Projects = () => {
             imgUrl: youtube,
         },
         {
-            title: "Interior decor webpage",
+            title: "Blood bank project",
             description:
-                "An interior decor business page with a sliding image carousel",
-            imgUrl: imageSlider,
+                "A project aimed at helping hospitals easily locate and manage blood donors",
+            imgUrl: bloodbank,
         },
         {
             title: "Yubo Clone",
@@ -49,7 +50,7 @@ const Projects = () => {
             description:
                 "user dashboard of a platform allows people to know how waste is disposed off ",
             imgUrl: wastex2,
-        },
+        }
     ];
 
     return (
@@ -69,8 +70,7 @@ const Projects = () => {
                             • colaborated with fellow trainees to build a blood
                             bank web application from start to finish.
                         </p>
-                    </div>}
-                    </TrackVisibility>
+                    
                         
                         <Tab.Container
                             id="projects-tabs"
@@ -93,7 +93,7 @@ const Projects = () => {
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav><br/><br/><br/>
-                            <Tab.Content>
+                            <Tab.Content id="slideInUp" className={isVisible? "animate__animated animate__slideInUp" : ""}>
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {projects.map((project, index) => {
@@ -107,13 +107,15 @@ const Projects = () => {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    Lorem Ipsum
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at quasi magnam nisi eaque dicta rerum nobis est sequi quidem!</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    Lorem Ipsum
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolor odit ipsum, tempora quam qui ad pariatur quasi maiores quod repellat dolorum esse explicabo reprehenderit blanditiis voluptate libero ipsam? Quaerat.</p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>
