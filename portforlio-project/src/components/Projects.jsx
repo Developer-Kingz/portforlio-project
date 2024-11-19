@@ -11,46 +11,59 @@ import bloodbank from "../assets/bloodbank.png"
 import wastex1 from "../assets/wastex1.jpeg"
 import wastex2 from "../assets/wastex2.jpeg"
 import youtube from "../assets/youtube.jpeg"
+import mainstack from "../assets/mainstack.png"
+import gitquerix from "../assets/gitquerix.png"
 import Yuboclone from "../assets/Yuboclone.png"
+import notch from "../assets/notch.png"
+import notchChat from "../assets/notch-chat.png"
+import notchLeave from "../assets/notch-leave.png"
+import notchAttendance from "../assets/notch-attendance.png"
+import countries from "../assets/countries.png"
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 const Projects = () => {
     const projects = [
         {
-            title: "Waste management Application",
+            title: "Notch Hr Website",
             description:
-            "A platform that allows people schedule for their waste to be picked and also make payment easily",
-            imgUrl: wastex1,
+                "A robust HR application (designed the UI of the website)",
+            imgUrl: notch,
+            url: 'https://notchhr.io/'
         },
         {
-            title: "E-commerce webpage",
-            description: "Simple E-commerce webpage",
-            imgUrl: oculus,
-        },
-        {
-            title: "Youtube Clone",
-            description: "Youtube homepage clone",
-            imgUrl: youtube,
-        },
-        {
-            title: "Blood bank project",
+            title: "Chat and Announcement Feature (Notch hr)",
             description:
-                "A project aimed at helping hospitals easily locate and manage blood donors",
-            imgUrl: bloodbank,
+                "Chat with colleagues one-on-one or in groups, instantly answer questions, and collaborate seamlessly",
+            imgUrl: notchChat,
+            url: 'https://notchhr.io/chats/'
         },
         {
-            title: "Yubo Clone",
-            description:
-                "a website clone using React and chakra UI ",
-            imgUrl: Yuboclone,
+            title: "Attendance Module (Notch Hr)",
+            description: "This seamless integration ensures accurate and timely payroll processing by aligning attendance data with payroll, thereby eliminating manual data entry errors and enhancing overall accuracy.",
+            imgUrl: notchAttendance,
+            url: 'https://notchhr.io/attendance-management/'
         },
         {
-            title: "Wastex Dashboard",
+            title: "analytics dashboard (personal project)",
+            description: "Just a landing page that displays some random dynamic data",
+            imgUrl: mainstack,
+            url: 'https://mainstack-admin-dashboard.netlify.app/'
+        },
+        {
+            title: "GitQuerix",
             description:
-                "user dashboard of a platform allows people to know how waste is disposed off ",
-            imgUrl: wastex2,
-        }
+                "enables users to search for any developers profile and portforlio from Github (Personal project)",
+            imgUrl: gitquerix,
+            url: 'https://gitquarix.netlify.app/'
+        },
+        {
+            title: "Country search (personal project)",
+            description:
+            "Allows user to search details of any country (personal project)",
+            imgUrl: countries, 
+            url: 'https://searching-countries.onrender.com/'
+        },
     ];
 
     return (
@@ -63,12 +76,8 @@ const Projects = () => {
                     <div className={isVisible? "animate__animated animate__bounce": ""}>
                     <h2>Projects</h2>
                         <p>
-                            • Building Frontend Interfaces with ReactJS •<br/>
-                            collaborated with a group of 4 developers (fellow
-                            trainees) in mapping out the userflow of a waste
-                            management web application as well as developing it.<br/>
-                            • colaborated with fellow trainees to build a blood
-                            bank web application from start to finish.
+                            • Below are a few of numerous live / personal projects ive worked on. For the Live projects (Notch),
+                            a review of the features described on the screenshot is available on request and can be demonstrated live, as they are paid features and currently used by thousands of users (it requires a personalized login) 
                         </p>
                     
                         
@@ -107,10 +116,10 @@ const Projects = () => {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at quasi magnam nisi eaque dicta rerum nobis est sequi quidem!</p>
+                                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at quasi magnam nisi eaque dicta rerum nobis est sequi quidem!</p> */}
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolor odit ipsum, tempora quam qui ad pariatur quasi maiores quod repellat dolorum esse explicabo reprehenderit blanditiis voluptate libero ipsam? Quaerat.</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolor odit ipsum, tempora quam qui ad pariatur quasi maiores quod repellat dolorum esse explicabo reprehenderit blanditiis voluptate libero ipsam? Quaerat.</p> */}
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>

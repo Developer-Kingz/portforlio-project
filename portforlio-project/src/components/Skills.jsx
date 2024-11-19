@@ -35,18 +35,38 @@ const Skills = () => {
                 <Col>
                 <div className='skill-bx'>
                    <h2>Skills</h2>
-                   <p>• JavaScript   •  React.js    •  Bootstrap   • HTML5   • CSS    • Chakra UI    • Tailwind CSS  • Material UI  • WordPress (Elementor) • Git/GitHub • Geomodelling and petrophysicsl analysis (using Petrel Geophysical Software).</p>
+                   <p>• HTML • CSS & Frameworks • JavaScript / TypeScript•  React.js  • Angular • Node.Js • MongoDB • SQL • Java • Micro-Services • WordPress (Elementor)•.</p>
                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
                     <div className='item'>
                        <img src={meter1} alt="image" />
                        <h5>ReactJS</h5>
                     </div>
                     <div className='item'>
-                       <img src={meter2} alt="image" />
+                       <img src={meter1} alt="image" />
+                       <h5>Angular</h5>
+                    </div>
+                    <div className='item'>
+                       <img src={meter1} alt="image" />
+                       <h5>NodeJs</h5>
+                    </div>
+                    <div className='item'>
+                       <img src={meter1} alt="image" />
+                       <h5>MongoDB</h5>
+                    </div>
+                    <div className='item'>
+                       <img src={meter1} alt="image" />
+                       <h5>SQL</h5>
+                    </div>
+                    <div className='item'>
+                       <img src={meter1} alt="image" />
                        <h5>JavaScript</h5>
                     </div>
                     <div className='item'>
-                       <img src={meter3} alt="image" />
+                       <img src={meter1} alt="image" />
+                       <h5>TypeScript</h5>
+                    </div>
+                    <div className='item'>
+                       <img src={meter1} alt="image" />
                        <h5>CSS & Frameworks</h5>
                     </div>
                     <div className='item'>
@@ -54,7 +74,7 @@ const Skills = () => {
                        <h5>Wordpress</h5>
                     </div>
                     <div className='item'>
-                       <img src={meter2} alt="image" />
+                       <img src={meter1} alt="image" />
                        <h5>Git/Github</h5>
                     </div>
                    </Carousel>

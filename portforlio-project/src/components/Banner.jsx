@@ -12,7 +12,7 @@ const Banner = () => {
 
  const [loopNum, setLoopNum] = useState(0);
  const [isDeleting, setIsDeleting] = useState(false);
- const toRotate  = ["Web Developer", "Frontend Developer"];
+ const toRotate  = ["FullStack Web Developer", "Solution Driven Engineer"];
  const [text, setText] = useState('');
  const [delta, setDelta] = useState(300 - Math.random() * 100)
  const period = 2000
@@ -56,7 +56,7 @@ const Banner = () => {
                   <div className={isVisible? "animate__animated animate__fadeIn": ""}>
                     <span className='tagline'>Welcome to my Portforlio</span>
                     <h1>{`Hi I'm Kingsley Igbor `}<span className='wrap'>{text}</span></h1>
-                    <p>A solution-driven web developer that enjoys working in collaborative environment and help finding solution to problems. Good knowledge of frontend development technologies such as HTML, CSS, JavaScript and React.js as well as some CSS frameworks (Chakra UI, Tailwind and Bootstrap). </p>
+                    <p>A flexible developer who can easily adapt to any kind of code base and enjoys working in collaborative environment as well as help finding solution to problems. Good knowledge of robust software development life-cycle. technologies: such as HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACTJS, ANGULAR, NODEJS, MONGODB, SQL, JAVA. </p>
                     <button onClick={()=> console.log('connect')}>Let's Connect <BsFillArrowRightCircleFill size={25 }/></button>
                   </div>}
                   </TrackVisibility>
