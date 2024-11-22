@@ -19,6 +19,8 @@ import notchChat from "../assets/notch-chat.png"
 import notchLeave from "../assets/notch-leave.png"
 import notchAttendance from "../assets/notch-attendance.png"
 import countries from "../assets/countries.png"
+import skillup from "../assets/skillup.png"
+import Crypto from "../assets/36crypto.png"
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
@@ -43,6 +45,18 @@ const Projects = () => {
             description: "This seamless integration ensures accurate and timely payroll processing by aligning attendance data with payroll, thereby eliminating manual data entry errors and enhancing overall accuracy.",
             imgUrl: notchAttendance,
             url: 'https://notchhr.io/attendance-management/'
+        },
+        {
+            title: "Skillup Website",
+            description: "worked on the website of a tech training hub located in lagos",
+            imgUrl: skillup,
+            url: 'https://skillupafrica.com.ng/'
+        },
+        {
+            title: "36Crypto",
+            description: "A crypto Blog (wordpress)",
+            imgUrl: Crypto,
+            url: 'https://36crypto.com/'
         },
         {
             title: "analytics dashboard (personal project)",
@@ -76,7 +90,7 @@ const Projects = () => {
                     <div className={isVisible? "animate__animated animate__bounce": ""}>
                     <h2>Projects</h2>
                         <p>
-                            • Below are a few of numerous live / personal projects ive worked on. For the Live projects (Notch),
+                            • Below are a few from the numerous live / personal projects i've worked on. For projects relating to Notchhr,
                             a review of the features described on the screenshot is available on request and can be demonstrated live, as they are paid features and currently used by thousands of users (it requires a personalized login) 
                         </p>
                     

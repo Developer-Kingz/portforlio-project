@@ -55,7 +55,7 @@ const Banner = () => {
                   {({ isVisible })=>
                   <div className={isVisible? "animate__animated animate__fadeIn": ""}>
                     <span className='tagline'>Welcome to my Portforlio</span>
-                    <h1>{`Hi I'm Kingsley Igbor `}<span className='wrap'>{text}</span></h1>
+                    <h1>{`Hi I'm Kingsley Igbor, `}<span className='wrap'>{text}</span></h1>
                     <p>A flexible developer who can easily adapt to any kind of code base and enjoys working in collaborative environment as well as help finding solution to problems. Good knowledge of robust software development life-cycle. technologies: such as HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACTJS, ANGULAR, NODEJS, MONGODB, SQL, JAVA. </p>
                     <button onClick={()=> console.log('connect')}>Let's Connect <BsFillArrowRightCircleFill size={25 }/></button>
                   </div>}
